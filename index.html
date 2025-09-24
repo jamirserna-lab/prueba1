@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Agencia Ficticia Monterrey Tours">
+  <meta name="description" content="Agencia de viajes a Monterrey - paquetes, lugares turísticos y reservas.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Monterrey Tours - Agencia de Viajes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="plane.png" alt="Monterrey skyline" class="logo-img" />
+      <h1>Monterrey Tours</h1>
+      <p class="tagline">Descubre Monterrey con nosotros</p>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#lugares">Lugares</a></li>
+        <li><a href="#paquetes">Paquetes</a></li>
+        <li><a href="#reservar">Reservar</a></li>
+        <li><a href="#encuesta">Encuesta</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="inicio" class="container">
+    <section class="hero">
+      <h2>Viaja a Monterrey — cultura, naturaleza y aventura</h2>
+      <p>Ofrecemos paquetes personalizados para conocer los mejores sitios: Fundidora, Macroplaza, Paseo Santa Lucía, Cerro de la Silla y más.</p>
+    </section>
+    <section id="lugares" class="grid">
+      <article class="card">
+        <h3>Parque Fundidora</h3>
+        <img src="fundidora.jpg" alt="Parque Fundidora">
+        <p>Parque urbano creado sobre las antiguas instalaciones de la fundidora; ofrece museos, áreas verdes, eventos y actividades al aire libre.</p>
+      </article>
+      <article class="card">
+        <h3>Macroplaza</h3>
+        <img src="macroplaza.jpg" alt="Macroplaza">
+        <p>Una de las plazas públicas más grandes del mundo, con monumentos, edificios históricos y museos alrededor.</p>
+      </article>
+      <article class="card">
+        <h3>Paseo Santa Lucía</h3>
+        <img src="SantaLucia.jpg" alt="Paseo Santa Lucía">
+        <p>Canal artificial que conecta la Macroplaza con el Parque Fundidora; paseo en bote, andadores y arte público.</p>
+      </article>
+      <article class="card">
+        <h3>Cerro de la Silla</h3>
+        <img src="CerroDeLaSilla.jpg" alt="Cerro de la Silla">
+        <p>Icono natural de Monterrey: montaña con rutas de senderismo y miradores.</p>
+      </article>
+    </section>
+    <section id="paquetes" class="table-section">
+      <h2>Paquetes recomendados</h2>
+      <table>
+        <thead>
+          <tr><th>Paquete</th><th>Duración</th><th>Incluye</th><th>Precio (MXN)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Esencial Monterrey</td><td>1 día</td><td>Tour Macroplaza + Paseo en bote</td><td>750</td></tr>
+          <tr><td>Cultura y Naturaleza</td><td>2 días</td><td>Fundidora + Cerro de la Silla</td><td>1650</td></tr>
+          <tr><td>Todo Monterrey</td><td>3 días</td><td>Hoteles + tours + entradas</td><td>3400</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="media">
+      <h2>Video de muestra</h2>
+      <video controls width="480">
+        <source src="precentacion.mp4" type="video/mp4">
+      </video>
+      <h2>Audio de muestra</h2>
+      <audio controls>
+        <source src="corridoMonterrey.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+    <section class="iframe-section">
+      <h2>Mapa</h2>
+      <iframe src="https://es.wikipedia.org/wiki/Monterrey" title="Monterrey info"></iframe>
+    </section>
+    <section id="reservar" class="form-section">
+      <h2>Reserva</h2>
+      <form>
+        <label>Nombre <input type="text" name="nombre"></label>
+        <label>Email <input type="email" name="email"></label>
+        <label>Teléfono <input type="tel" name="tel"></label>
+        <label>Paquete
+          <select><option>Esencial</option><option>Cultura</option><option>Todo</option></select>
+        </label>
+        <p>¿Transporte?</p>
+        <label><input type="radio" name="transporte"> Sí</label>
+        <label><input type="radio" name="transporte"> No</label>
+        <p>Extras:</p>
+        <label><input type="checkbox"> Hotel</label>
+        <label><input type="checkbox"> Guía</label>
+        <label><input type="checkbox"> Comida</label>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section id="encuesta" class="survey">
+      <h2>Encuesta</h2>
+      <form>
+        <p>¿Ya visitaste Monterrey?</p>
+        <label><input type="radio" name="visitado"> Sí</label>
+        <label><input type="radio" name="visitado"> No</label>
+        <p>Zona favorita:</p>
+        <select><option>Fundidora</option><option>Macroplaza</option><option>Santa Lucía</option><option>Cerro</option></select>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>info@monterreytours.example</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2025 Monterrey Tours</p>
+  </footer>
+</body>
+</html>
