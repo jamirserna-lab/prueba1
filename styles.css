@@ -12,3 +12,8 @@ body {font-family:Arial, sans-serif; margin:0; background:#f7f7f8; color:#222;}
 button {background:#ff8c42; color:#fff; border:0; padding:0.5rem 1rem; border-radius:6px; cursor:pointer;}
 iframe {width:100%; height:250px; border:0;}
 .site-footer {text-align:center; padding:1rem; background:#eee;}
+.brand {
+  display: flex;           /* logo + texto en línea */
+  align-items: center;     /* alinear verticalmente */
+  gap: 15px;               /* espacio entre logo y texto */
+}
